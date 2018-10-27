@@ -13,13 +13,7 @@ import { from } from 'rxjs/observable/from';
 })
 export class BlobViewerComponent implements OnInit {
 
-  imageBlobUrl: string | null = null;
-
-  blobsList: Azureblob[];
-
-  bList: any;
-
-  sub: any;
+  blobsList: any;
 
   containerName: string = "acscontainer" ;
 
@@ -36,7 +30,7 @@ export class BlobViewerComponent implements OnInit {
     this.blobService.getAllBlobsJS()
       .subscribe(
         (val) => {
-          this.bList = val;
+          this.blobsList = val;
           //console.log(" name=", val[0].blobName);
         },
         response => {
@@ -46,18 +40,4 @@ export class BlobViewerComponent implements OnInit {
           console.log(" observable is now completed.");
         });
   }
-
-  createImageFromBlob(image: Blob) {
-    console.log("Call createImageFromBlob()", image);
-    let reader = new FileReader();
-    reader.addEventListener("load", () => {
-      this.imageBlobUrl = reader.result;
-    }, false);
-
-    if (image) {
-      reader.readAsDataURL(image);
-    }
-  }
-
-
 }

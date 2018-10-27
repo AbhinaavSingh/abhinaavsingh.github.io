@@ -15,19 +15,25 @@ export class BlobService {
 
   blobList: Azureblob[] = [];
 
+  urlPrefix="http://acsazurestore.blob.core.windows.net/acsazurecontainer/";
+
+  containerName: string = "acsazurecontainer";
+
   /*  */
   getAllBlobsJS(): Observable<Azureblob[]> {
     return new Observable(obs=>{
+
       this.connectionString = "DefaultEndpointsProtocol=https;AccountName=acsazurestore;AccountKey=qjC6s44AmSbAkJ7Xqdsks/jjZDIYRTY8qgWKds8w8PXdL+Q08mU/yu3Oh/4wO3sYTwNgNiA6EG66gBRWBqMBNA==";
       this.blobServiceObj = AzureStorageBlobServiceJS.createBlobService(this.connectionString);
 
-      this.blobList = this.blobServiceObj.listBlobsSegmented('acsazurecontainer', null,
+      this.blobList = this.blobServiceObj.listBlobsSegmented(this.containerName, null,
         function (error, results) {
         if (error) {
           console.log("**** Error");
           obs.error();
         } else {
-          const event = results.entries.map(blob => new Azureblob(blob.name));
+          const event = results.entries.map(blob => new Azureblob(
+            blob.name, "http://acsazurestore.blob.core.windows.net/acsazurecontainer/"+blob.name));
           obs.next(event);
           obs.complete();
         }
@@ -36,10 +42,6 @@ export class BlobService {
     })
   }
 
-  /**
-   *
-   */
-  getThumbnailForBlobUrl() {
-
-  }
+  /** @TODO */
+  getThumbnailForBlobUrl() { }
 }
