@@ -14,5 +14,5 @@
 # Contribute 
 Do you have Angular based examples you wanted to share, please fork and submit a PR.
 
-# Contact
+# Contact / Further Help
 Tweet me @SurenKonathala
