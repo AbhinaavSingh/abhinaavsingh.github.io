@@ -1,6 +1,12 @@
-# Ngx2
+# Angular Bootstrap Starter / Seed / Sample
+
+Sample website built using Bootstrap's [Jumbotron](https://getbootstrap.com/docs/4.1/components/jumbotron/), [Navbar](https://getbootstrap.com/docs/4.1/components/navbar/) and Footer components.
+
+Built with [ngx-bootstrap](https://valor-software.com/ngx-bootstrap/#/), [Bootstrap 4](https://getbootstrap.com/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
+
+![screen shot 2018-12-19 at 4 47 23 pm](https://user-images.githubusercontent.com/902972/50252816-d76d4980-03ad-11e9-81d8-cec2b27e0869.png)
 
 ## Development server
 
@@ -23,5 +29,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Tweet me @SurenKonathala
