@@ -1,0 +1,211 @@
+/* figure {
+    width: 100%;
+    height: 170px;
+} */
+
+/* .img-thumbnail {
+    width: 100%;
+    display: block;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+} */
+
+.tint_image {
+    opacity: 0.5;
+    filter: alpha(opacity=20);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.mask figcaption {
+    height: 50px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: #323232;
+    background: #2772DB;
+}
+
+.modal-dialog {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 1;
+    margin-right: 0px;
+    max-width: max-content;
+    transition: all 0.2s;
+    transform: translate3d(0, -300px, 0);
+}
+
+/* #portfolio{
+    margin-bottom: 50px;
+} */
+
+.modal{
+    padding: 0px!important;
+}
+
+.modal-content{
+    height: auto !important;
+    min-height: 100% !important;
+    border-radius: 0 !important;
+    /* background: #fd0025; */
+    /* background: rgba(253, 0, 37, .90); */
+    background: rgba(27, 27, 27, 0.9);
+}
+
+.modal-closer {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.modal-closer.button {
+    color: #F1C40F;
+}
+
+.modal-body-text {
+    margin-top: 15vh;
+    margin-bottom: 30px;
+    /* margin-left: 50px;
+    margin-right: 60px;
+    padding-right: 60px; */
+    padding-left: 40px;
+}
+
+.modal-body p {
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,
+    Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+.modal-body p b {
+    font-weight: 600;
+}
+
+/* For mobile phones, reduce the font size and remove unnecessary margins */
+@media only screen and (max-width: 600px) {
+    .modal-content{
+        background: rgba(27, 27, 27, 0.9);
+        color: white;
+    }
+    div.row.modalRow {
+        display: block;
+    }
+    .modal-body p
+    {
+        font-size: 16px!important;
+        text-align: justify;
+    }
+}
+
+.modal-link p {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.modal-link i {
+    color: white;
+}
+
+.modal-link a {
+    text-decoration: none;
+}
+
+.modal-link p:hover {
+    /* color:#65000e; */
+    color: #25fd00;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.bar {
+    height: 28px;
+    margin: 0 0 15px 0;
+    font-size: 11pt;
+    background-color: #04C2C9;
+}
+
+.bar .tag {
+    height: 100%;
+    width: 110px;
+    text-align: right;
+}
+
+.bg-light-pink{
+    background: #04C2C9;
+}
+
+.caption-photo {
+    margin: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #323232;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    /* vertical-align: middle; */
+    text-align: left;
+    font-size: 14px;
+    width: 100%;
+    height: 35px;
+    display: block;
+}
+
+.tint {
+    position: relative;
+    /* float: left; */
+    margin-right: 20px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+  }
+  
+  .tint:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,255,255, 0.5);
+    transition: all .3s linear;
+  }
+  
+  .tint:hover:before { background: none; }
+  
+  .t2:before { background: rgba(0,0,255, 0.2); }
+  .t3:before { background: rgba(255,0,0, 0.2); }
+  .t4:before { background: rgba(0,255,0, 0.2); }
+  .t5:before { background: rgba(255,0,240, 0.2); }
+  .t6:before { background: rgba(255,102,0, 0.2); }
+
+  .thumbnail {
+    /* display: block; */
+    /* margin-bottom: 20px; */
+    /* line-height: 1.42857143; */
+    overflow: hidden;
+}
