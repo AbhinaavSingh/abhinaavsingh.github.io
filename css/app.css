@@ -23,7 +23,7 @@ img {
   
 .has-image {
     float: right;
-    padding-top: 15rem;
+    padding-top: 10rem;
     padding-right: 0.833rem;
     /* border-style: solid; */
     display:block;
@@ -37,7 +37,7 @@ img {
     /*overflow:hidden;*/
     padding-left: .83333rem;
     padding-right: .83333rem;
-    padding-top: 5rem;
+    padding-top: 0rem;
     /* border-style: solid; */
     display:block;
     float: left;
@@ -108,10 +108,12 @@ div#particles-js {
     text-align: center;
     color: #FFFFFF;
     font-size: 1.0rem;
-    line-height: 25px;
+    line-height: 1.5625rem;
     padding: 12px;
     /* min-width: 1110px;
     max-width: 1110px; */
+    display: inline-block;
+    width:100%;
 }
 
 
