@@ -1,3 +1,7 @@
+.navbar-custom {
+    background-color: #ff5500;
+}
+
 .navbar {
     /* background-color: #24292e; */
     color: #2e2e2e;
@@ -78,20 +82,6 @@ nav.shift ul.navtext li a.nav-link:hover:after {
     height: 100%;
 }
 
-/* .nav-item.active a {
-    background: #F1C40F;
-    opacity: 1;
-} */
-
-.navbar-toggler-icon {
-    color: #2e2e2e;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(46,46,46,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-
-}
-
-.navbar-toggler {
-    text-decoration: none;
-}
 
 /* For mobile phones, show the brand in navbar */
 @media only screen and (max-width: 991px) {

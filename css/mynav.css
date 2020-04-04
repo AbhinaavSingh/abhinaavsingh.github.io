@@ -1,0 +1,13 @@
+/* For mobile phones, show the brand in navbar */
+@media only screen and (max-width: 991px) {
+    .navbar-brand{
+        visibility: visible!important;
+        width: auto!important;
+        font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+        font-weight: 700;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 1.0rem;
+        color: #2e2e2e;
+    }
+}

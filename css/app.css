@@ -1,7 +1,7 @@
 body {
     font-family: NB Akademie Std,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;background-color: rgb(0, 0, 0);
     font-size: 16px;
-    color: #acaeaf;
+    color: #ffffff;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
     /* text-align: center; */
@@ -103,7 +103,7 @@ div#particles-js {
 
 
 .contactBar {
-    background-color: black;
+    background-color:#0a0a0a;
     opacity: 0.75;
     text-align: center;
     color: #FFFFFF;
