@@ -23,7 +23,7 @@ img {
   
 .has-image {
     float: right;
-    padding-top: 200px;
+    padding-top: 15rem;
     padding-right: 0.833rem;
     /* border-style: solid; */
     display:block;
@@ -41,7 +41,7 @@ img {
     /* border-style: solid; */
     display:block;
     float: left;
-    width: 700px;
+    width: 29rem;
 
 
     /* align-items: center; */
@@ -95,8 +95,8 @@ div#particles-js {
 
 .flex-item-txtblock {
     padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
+    /* padding-left: 300px;
+    padding-right: 300px; */
     /* margin-top: 30px; */
     height: 100vh;
 }
