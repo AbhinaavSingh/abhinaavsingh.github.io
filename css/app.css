@@ -9,21 +9,12 @@ body {
     font-weight: 400;
 }
 
-/* p {
-    color: #3a4145;
-    font-size: 16px;
-    line-height: 1.5;
-} */
 
 a {
     transition: color 0.1s ease-in, all 0.1s ease-in;
     text-decoration: none;
 }
 
-#blogLink {
-    text-decoration: none;
-    color: #2b3137;
-}
 
 img {
     border-radius: 8px;
@@ -83,41 +74,13 @@ img {
     font-family: "Inter", sans-serif;
 }
 
-.headerInfo {
-    font-size: 0.95rem;
-}
 
-.headerName.small {
-    font-size: 18px;
-}
 
 .headerlead.small {
     border-top: none;
     font-size: 1.0rem;
 }
 
-.headerInfo.small {
-    font-size: 0.8rem;
-}
-
-.border-bottom {
-    border-bottom-style: solid!important;
-    border-bottom-width: 1px!important;
-    border-bottom-color: rgba(0, 0, 0, .125)!important;
-}
-
-#paragraph {
-    color: #e1e4e8;
-}
-
-#main-background {
-    background-color: #2b3137;
-}
-
-.jumbotron.black-background {
-    padding-top: 120px;
-    background-color: #2b3137;
-}
 
 
 div#particles-js {
@@ -129,33 +92,6 @@ div#particles-js {
 }
 
 
-.jumbotron h1 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-    font-weight: 500;
-    line-height: 1!important;
-}
-
-.text-neutral {
-    color: #d0caca!important;
-}
-
-.jumbotron h5 {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-    font-weight: normal;
-    color: hsla(0, 0%, 100%, .6);
-}
-
-/* .flex-item-container{
-    background-color: rgb(250, 245, 249);
-} */
-
-/* .flex-item-txtblock.main {
-    /* border-top: 4px solid #86bc25; */
-
-/* background-color: #f5f8fa; */
-
-/* padding-top: 60px;
-}  */
 
 .flex-item-txtblock {
     padding-top: 50px;
@@ -165,88 +101,6 @@ div#particles-js {
     height: 100vh;
 }
 
-.flex-item-fixed-height {
-    min-height: 620px;
-}
-
-
-.center-block {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.dividerLine {
-    max-width: 80px;
-    height: 1px;
-    border-top: 1px #acaeaf solid;
-    padding-left: 1rem;
-
-}
-
-.workHeaderName {
-    font-size: 22px!important;
-    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-    font-weight: 400!important;
-    line-height: 1.25!important;
-    margin-bottom: 24px!important;
-    margin-top: 0;
-    color: #3a4145;
-}
-
-.workHeader {
-    margin-top: 50px;
-    padding: 50px;
-    color: #acaeaf;
-}
-
-.workImage {
-    width: 50%;
-    height: 30%;
-}
-
-h2.centered.sechead {
-    font-weight: bold;
-    letter-spacing: -1px;
-    font-size: 28px;
-}
-
-.firstsec {
-    margin-top: 100px;
-}
-
-.centered {
-    text-align: center;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#contact h1, h2 {
-    color: #46356e;
-}
-
-/* #education{
-    margin-bottom: 50px;
-} */
-
-.header-bar {
-    width: 70px;
-    height: 4px;
-    background: #444649;
-    margin-bottom: 50px;
-}
-
-.dell {
-    width: 100px;
-    height: 100px;
-    text-align: right;
-}
-
-.flex-align-center {
-    display: flex!important;
-    align-items: center;
-}
 
 .contactBar {
     background-color: black;
@@ -260,17 +114,8 @@ h2.centered.sechead {
     max-width: 1110px; */
 }
 
-.shadowEffect3d {
-    -webkit-box-shadow: 0 17px 6px -6px #777;
-    -moz-box-shadow: 0 17px 6px -6px #777;
-    box-shadow: 0 17px 6px -6px #777;
-}
 
 .contactDetails a {
     color: #FFFFFF;
     text-decoration: none;
-}
-
-.travelBlog {
-    padding-bottom: 30px;
 }
