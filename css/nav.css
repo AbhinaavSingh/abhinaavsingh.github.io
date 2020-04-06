@@ -7,14 +7,20 @@ p { font-size: 20px; }
 p.small { font-size: 16px; }
 
 a,
-a:hover,
+a:hover {
+    outline: 0;
+    color: #FFFFFF;
+}
 a:focus,
-a:active,
 a.active {
     outline: 0;
     color: #050a09;
 }
 
+
+a.nav-link:hover  {
+    color: #FFFFFF;
+}
 
 h1,
 h2,
@@ -46,6 +52,11 @@ h6 {
 .navbar .navbar-nav {
     letter-spacing: 2px;
     /* color: #808080; */
+    
+}
+
+.navbar .navbar-nav:hover {
+    color: #ffffff;
     
 }
 
@@ -90,10 +101,10 @@ h6 {
     background-color: transparent;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+/* .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #808080;
     background-color: #1A242F;
-}
+} */
 
 .navbar-default .navbar-toggle {
     border-color: #FFF;
