@@ -26,8 +26,8 @@ img {
     padding-top: 10rem;
     padding-bottom: 10rem;
     padding-right: 0.833rem;
-    /* border-style: solid;
-    border-color: coral; */
+    border-style: solid;
+    border-color: coral;
     display:block;
     float: right;
     
@@ -41,8 +41,8 @@ img {
     padding-left: .83333rem;
     padding-right: .83333rem;
     padding-top: 0rem;
-    /* border-style: solid;
-    border-color: coral; */
+    border-style: solid;
+    border-color: coral;
     display:block;
     float: left;
     width: 29rem;
@@ -54,15 +54,13 @@ img {
 
 
 .headerName {
-    padding-top: 200px;
+    padding-top: 4.75em;
     padding-left: .83333rem;
     /* color: #24292e; */
     font-weight: 900;
     text-align: left;
     margin-bottom: 2px;
     overflow-wrap: break-word;
-
-    
 }
 
 .headerlead {
