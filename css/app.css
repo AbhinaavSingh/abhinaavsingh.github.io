@@ -121,3 +121,33 @@ div#particles-js {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+/* .separator-type, .title-type, .intro-type, .content-type .intro-type p {
+    position: relative;
+  }
+  .intro-type .container {
+    padding: 107px 0px 102px 0px !important;
+  }
+  .company-heading h1 {
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700 !important;
+    text-align: center;
+  } */
+
+  .ct-btn-scroll {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 50px;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+}
