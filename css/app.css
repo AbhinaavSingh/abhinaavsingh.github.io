@@ -24,10 +24,13 @@ img {
 .has-image {
     float: right;
     padding-top: 10rem;
+    padding-bottom: 10rem;
     padding-right: 0.833rem;
-    /* border-style: solid; */
+    /* border-style: solid;
+    border-color: coral; */
     display:block;
     float: right;
+    
 
 
 
@@ -38,7 +41,8 @@ img {
     padding-left: .83333rem;
     padding-right: .83333rem;
     padding-top: 0rem;
-    /* border-style: solid; */
+    /* border-style: solid;
+    border-color: coral; */
     display:block;
     float: left;
     width: 29rem;
