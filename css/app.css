@@ -8,6 +8,11 @@ body {
     font-weight: 400;
 }
 
+@media (max-width:629px) {
+    .remove-for-phone {
+      display: none;
+    }
+  }
 
 a {
     transition: color 0.1s ease-in, all 0.1s ease-in;
